@@ -1,15 +1,30 @@
-# weather-mcp
+# simple-weather-mcp
 
-To install dependencies:
+MCP (Model Context Protocol) server for fetching weather data.
+
+> This application was developed during a Scrimba course.
+
+## Installation
 
 ```bash
 bun install
 ```
 
-To run:
+## Run
 
 ```bash
-bun run index.ts
+bun run dev
 ```
 
-This project was created using `bun init` in bun v1.2.20. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+## Run Inspector
+
+```bash
+bunx @modelcontextprotocol/inspector
+```
+
+## Technologies Used
+
+- **[Bun](https://bun.sh)** - Fast JavaScript runtime and package manager
+- **[Biome](https://biomejs.dev)** - Fast formatter and linter
+- **[MCP SDK](https://modelcontextprotocol.io)** - Model Context Protocol SDK for building MCP servers
+- **[Zod](https://zod.dev)** - TypeScript-first schema validation
